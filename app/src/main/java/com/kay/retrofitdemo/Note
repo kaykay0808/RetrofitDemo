@@ -1,0 +1,19 @@
+This is a retrofit demo with a jSonPlaceholder
+    https://jsonplaceholder.typicode.com/
+
+We are learning how to get the Get request
+
+(1) Add the dependency for retrofit.
+    -> go to google and search for retrofit square
+    https://square.github.io/retrofit/
+
+(2) use kotlin serialization plugin
+    -> id 'org.jetbrains.kotlin.plugin.serialization' version '1.5.31'
+           implementation "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0"
+           implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0"
+
+(3) add json dependency to parse the data.
+    (you can find this on the same retrofit page)
+
+(4) create a data class with the json converter plugin.
+    -> copy and paste the json output
